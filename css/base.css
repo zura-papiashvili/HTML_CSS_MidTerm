@@ -2,14 +2,15 @@ body, html {
     height: 100%;
     margin: 0;
 }
+header {
+    width: 100%;
+}
 .container{
     display: flex;
-    max-width: 1170px;
-    width: 100%;
-    justify-content:space-between;
-    margin: 20px auto; 
-    align-items:center
+    justify-content:space-around;
 
+    
+    align-items: center
     
     
 }
@@ -17,7 +18,8 @@ body, html {
 .section-one{
 
     display: flex;
-    align-items:start;
+    flex-direction: column;
+
     flex-wrap:wrap;
     background-image: url(../images/landview.png);
     height: 100%; 
@@ -25,7 +27,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
-    text-align: center;
+    align-items: center;
+ 
 }
 .navbar ul{
     display: flex;
@@ -43,35 +46,38 @@ body, html {
 }
 
 .center{
-    margin-left: 30%;
-    margin-bottom: 20%;
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
-
+    flex-wrap:wrap;
     justify-content: center;
     align-items:center;
-
+    
     
 }
 .center h1{
     font:300% Lato ;
     color:#FFFFFF;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
-
+.center a{
+    width:100%;
+    display: flex;
+    align-items:center;
+    
+}
 .blue-round{
     display: flex;
     align-items:center;
     justify-content:center;
     background-color: #325DFF;
-    width:100%;
+    max-width: 300px ;
+    width:400%;
     height:60px;
     border-radius:30px;
-
-}
-.blue-round a{
     font: 14px Lato;
     color:#FFFFFF;
+
 }
 
 .section-two{
@@ -95,13 +101,16 @@ body, html {
     width:50%
 }
 .project h3{
-    font: 170% Lato;
+    font: 150% Lato;
     margin: 0 10px 20px 0;
 }
 
 .project p{
-    font: 16px Poppins;
+    font: 80% Poppins;
     margin: 0 30px 30px 0;
+}
+.project a{
+    width: 30%;
 }
 
 .section-three {
@@ -117,7 +126,7 @@ body, html {
     flex-direction: column;
     justify-content:space-around;
     width: 50%;
- 
+    margin-top:3%;
     text-align: center;
 }
 .headers h2{
