@@ -2,7 +2,7 @@
 
 ## Topic: Flex
 
-[Preview Page <img src="images/landings.svg" width="45">](https://zura-papiashvili.github.io/HTML_CSS_MidTerm/)
+[Preview Page <img src="images/Landings.svg" width="45">](https://zura-papiashvili.github.io/HTML_CSS_MidTerm/)
 
 
 #### Tree Structure:
