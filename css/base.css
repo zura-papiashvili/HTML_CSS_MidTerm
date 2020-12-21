@@ -51,12 +51,10 @@ header {
     flex-direction: column;
     flex-wrap:wrap;
     justify-content: center;
-    align-items:center;
-    
-    
+    align-items:center;  
 }
 .center h1{
-    font:300% Lato ;
+    font:600% Lato ;
     color:#FFFFFF;
     margin-bottom: 10%;
 }
@@ -64,6 +62,7 @@ header {
     width:100%;
     display: flex;
     align-items:center;
+    
     
 }
 .blue-round{
@@ -77,6 +76,7 @@ header {
     border-radius:30px;
     font: 14px Lato;
     color:#FFFFFF;
+    margin-left:25%
 
 }
 
